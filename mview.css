@@ -5,7 +5,7 @@
     .site-title, .home, .about, .contact, 
     .profile-img, .about-img, .overlay-text, 
     .space, .aboutjobayar, .details, 
-    .email-button, .facebook, .C,.linkedin {
+    .email-button, .facebook,.linkedin {
         position: static; 
         display: block;
         margin: 10px auto;
@@ -46,5 +46,12 @@
         padding: 12px;
         box-sizing: border-box;
     }
+    .C{
+         position: static; 
+        margin: 10px auto;
+        text-align: center;
+        width: 80%;
+        left: auto;
+        top: auto;
+    }
 
-}
