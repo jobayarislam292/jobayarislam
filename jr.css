@@ -78,14 +78,6 @@ border: 2px solid red; /* Width, Style, Color */
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-    .social-media{
-        position: absolute;
-        font-size: 2rem;
-        font-family: 'Times New Roman', Times, serif;
-        top: 110%;
-        bottom: 20%;
-        left: 10%;
-    }
     /*all page*/
 body {
     background-color: black;
@@ -183,6 +175,7 @@ body {
     left: 30%;
     padding: 15px 30px;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 .facebook:hover{
     background-color: transparent;
@@ -198,10 +191,12 @@ body {
     left: 30%;
     padding: 15px 30px;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 .linkedin:hover{
     background-color: transparent;
     color:red;
     cursor: pointer;
     text-transform: lowercase
+
 }
