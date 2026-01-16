@@ -1,0 +1,49 @@
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    
+    /* Reset absolute positioning for mobile */
+    .site-title, .home, .about, .contact, 
+    .profile-img, .about-img, .overlay-text, 
+    .space, .aboutjobayar, .details, 
+    .email-button, .facebook, .linkedin {
+        position: static; 
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        width: 90%;
+        left: auto;
+        top: auto;
+    }
+
+    /* Fix Navigation - Stack them vertically or side-by-side */
+    .home, .about, .contact {
+        width: fit-content;
+        margin: 15px auto;
+        font-size: 1.2rem;
+    }
+
+    /* Scale down images for mobile screens */
+    .profile-img, .about-img {
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    /* Adjust large text sizes */
+    .overlay-text, .space, .aboutjobayar {
+        font-size: 1.5rem;
+    }
+
+    .details {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        padding: 0 10px;
+    }
+
+    /* Contact Buttons */
+    .email-button, .facebook, .linkedin {
+        width: 80%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+}
